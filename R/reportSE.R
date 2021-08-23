@@ -215,7 +215,7 @@ reportSE <- function(gdx, regionSubsetList = NULL, t = c(seq(2005, 2060, 5), seq
     se.prod(prodSe, dataoc, oc2te, sety, "pegas", "seel", te = tenoccs,       name = "SE|Electricity|Gas|w/o CCS (EJ/yr)"),
     se.prod(prodSe, dataoc, oc2te, sety, "pegas", "seel", te = "ngcc",        name = "SE|Electricity|Gas|CC|w/o CCS (EJ/yr)"),
     se.prod(prodSe, dataoc, oc2te, sety, "pegas", "seel", te = "ngccc",        name = "SE|Electricity|Gas|CCC|w/ CCS (EJ/yr)"),
-    se.prod(prodSe, dataoc, oc2te, sety, "pegas", "seel", te = "ngt",         name = "SE|Electricity|Gas|GT (EJ/yr)"),
+    se.prod(prodSe, dataoc, oc2te, sety, "pegas", "seel", te = "ngt",         name = "SE|Electricity|Gas|OC (EJ/yr)"),
     se.prod(prodSe, dataoc, oc2te, sety, "pegas", "seel", te = "gaschp", name = "SE|Electricity|Gas|CHP|w/o CCS (EJ/yr)"),
     se.prod(prodSe, dataoc, oc2te, sety, "seh2", "seel",                      name = "SE|Electricity|Hydrogen (EJ/yr)"),
     se.prod(prodSe, dataoc, oc2te, sety, "peoil", "seel",                     name = "SE|Electricity|Oil (EJ/yr)"),
